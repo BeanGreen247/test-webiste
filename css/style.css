@@ -1,7 +1,8 @@
 html,
 body {
-	width:100%;
+	width:99%;
 	height:100%;
+	text-align:center;
 }
 body {
 	background-color: rgb(0,0,32);
@@ -12,4 +13,13 @@ p, h1 {
 a {
 	color:white;
 	text-decoration:underline;
+}
+.topnav {
+	background-color:white;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.topnav a {
+	color:black;
 }
